@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/entegral/reactJsTemplate/issues"
   },
-  "homepage": "https://github.com/entegral/reactJsTemplate#readme"
+  "homepage": "https://github.com/entegral/reactJsTemplate#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
 }
