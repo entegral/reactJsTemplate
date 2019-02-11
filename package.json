@@ -1,0 +1,19 @@
+{
+  "name": "reactjstemplate",
+  "version": "1.0.0",
+  "description": "minimal template for reactJs apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entegral/reactJsTemplate.git"
+  },
+  "author": "Robert Bruce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entegral/reactJsTemplate/issues"
+  },
+  "homepage": "https://github.com/entegral/reactJsTemplate#readme"
+}
