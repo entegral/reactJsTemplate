@@ -7,12 +7,11 @@ function App() {
   return (  
     <div>
       <Header/>
+      <hr />
       <Switch>
         <Route exact path='/' component={Home} />
-
-        <h1>Generic Template Works!</h1>
       </Switch>
-      <hr/>
+      <hr />
     </div>
   );
 }
