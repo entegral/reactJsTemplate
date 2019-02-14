@@ -6,7 +6,9 @@
   "scripts": {
     "test": "test",
     "start": "node_modules/.bin/webpack-dev-server",
-    "lint": "node_modules/.bin/eslint src/** src/**/**; exit 0"
+    "lint": "node_modules/.bin/eslint src/** src/**/**; exit 0",
+    "fix": "eslint src/** src/**/** --fix; exit 0"
+
   },
   "repository": {
     "type": "git",
