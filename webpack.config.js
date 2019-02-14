@@ -9,7 +9,7 @@ module.exports = {
     'react-hot-loader/patch',
     'webpack-dev-server/client?http://localhost:8080',
     'webpack/hot/only-dev-server',
-    resolve(__dirname, "src", "index.jsx")
+    resolve(__dirname, 'src', 'index.jsx')
   ],
 
   output: {
@@ -33,17 +33,17 @@ module.exports = {
   module: {
     rules: [{
       test: /\.jsx?$/,
-      loader: "babel-loader",
+      loader: 'babel-loader',
       exclude: /node_modules/,
       options: {
         presets: [
-          ["es2015", {
-            "modules": false
+          ['es2015', {
+            'modules': false
           }],
-          "react",
+          'react',
         ],
         plugins: [
-          "react-hot-loader/babel"
+          'react-hot-loader/babel'
         ]
       }
     }]
@@ -56,7 +56,7 @@ module.exports = {
       template: 'template.ejs',
       appMountId: 'react-app-root',
       title: 'React Help Queue',
-      filename: resolve(__dirname, "build", "index.html"),
+      filename: resolve(__dirname, 'build', 'index.html'),
     }),
   ]
 };

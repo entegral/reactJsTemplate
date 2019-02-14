@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react';
 
 function Header(){
   
   const componentStyle = {
-    display: "inline",
-  }
+    display: 'inline',
+  };
 
   const linkStyle = {
-    textDecoration: "none",
-    color: "black"
-  }
-  
-  
+    textDecoration: 'none',
+    color: 'black'
+  };
+
+
   return (
     <div>
       <ul>

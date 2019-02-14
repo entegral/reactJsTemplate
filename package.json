@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "node_modules/.bin/webpack-dev-server"
+    "start": "node_modules/.bin/webpack-dev-server",
+    "lint": "node_modules/.bin/eslint src/** src/**/**; exit 0"
+
   },
   "repository": {
     "type": "git",
